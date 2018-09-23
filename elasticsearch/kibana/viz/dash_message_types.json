@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "dc3ebb90-3c27-11e8-be4f-3d48125d63a5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "message types",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":3,\"i\":\"1\"},\"version\":\"6.2.3\",\"type\":\"visualization\",\"id\":\"81c78d90-3c27-11e8-be4f-3d48125d63a5\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":3,\"w\":10,\"h\":4,\"i\":\"2\"},\"version\":\"6.2.3\",\"type\":\"visualization\",\"id\":\"fbf6be10-3c1d-11e8-be4f-3d48125d63a5\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":true,\"hidePanelTitles\":false}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    }
+  }
+]

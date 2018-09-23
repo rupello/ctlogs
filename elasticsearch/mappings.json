@@ -1,0 +1,31 @@
+{
+  "index_patterns": "packets-*",
+  "mappings": {
+    "doc": {
+      "dynamic": "true",
+      "properties": {
+        "timestamp": {
+          "type": "date",
+          "format": "epoch_millis"
+        },
+        "layers": {
+          "properties": {
+            "wlan_duration": { "type" : "long" },
+            "wlan_fc_type": { "type" : "long" },
+            "wlan_fc_subtype": { "type" : "long" },
+            "wlan_fc_type_subtype": { "type" : "long" },
+            "wlan_radio_duration": { "type" : "long" },
+            "wlan_radio_frequency": { "type" : "long" },
+            "wlan_radio_channel": { "type" : "long" },
+            "wlan_radio_ifs": { "type" : "long" },
+            "wlan_radio_noise_dbm": { "type" : "long" },
+            "wlan_radio_preamble": { "type" : "long" },
+            "wlan_radio_signal_dbm": { "type" : "long" },
+            "wlan_ssid": { "type" : "keyword" },
+            "wlan_qbss_cu": { "type" : "long" }
+            }
+        }
+      }
+    }
+  }
+}

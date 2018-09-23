@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "92e77870-3faf-11e8-b4ce-0d01d8c22bbe",
+    "_type": "visualization",
+    "_source": {
+      "title": "Channel Heatmap",
+      "visState": "{\"title\":\"Channel Heatmap\",\"type\":\"heatmap\",\"params\":{\"addLegend\":true,\"addTooltip\":true,\"colorSchema\":\"Yellow to Red\",\"colorsNumber\":10,\"colorsRange\":[{\"from\":0,\"to\":10},{\"from\":10,\"to\":100},{\"from\":100,\"to\":1000},{\"from\":1000,\"to\":5000},{\"from\":5000,\"to\":10000},{\"from\":10000,\"to\":1000000}],\"enableHover\":true,\"invertColors\":false,\"legendPosition\":\"bottom\",\"percentageMode\":false,\"setColorRange\":true,\"times\":[],\"type\":\"heatmap\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"color\":\"#555\",\"rotate\":0,\"show\":false},\"scale\":{\"defaultYExtents\":false,\"type\":\"square root\"},\"show\":false,\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"layers.wlan_radio_channel\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"size\":100,\"order\":\"desc\",\"orderBy\":\"_term\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"timestamp\",\"interval\":\"m\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{\"vis\":{\"colors\":{\"0 - 10\":\"#CFFAFF\",\"1,000 - 10,000\":\"#F9BA8F\",\"10 - 100\":\"#E0F9D7\",\"10,000 - 100,000\":\"#F29191\",\"100 - 1,000\":\"#FCEACA\",\"100,000 - 1,000,000\":\"#890F02\",\"5,000 - 10,000\":\"#E24D42\"},\"defaultColors\":{\"0 - 10\":\"rgb(255,255,204)\",\"10 - 100\":\"rgb(255,241,170)\",\"100 - 1,000\":\"rgb(254,225,135)\",\"1,000 - 5,000\":\"rgb(254,201,101)\",\"5,000 - 10,000\":\"rgb(254,171,73)\",\"10,000 - 1,000,000\":\"rgb(253,141,60)\"},\"legendOpen\":true}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"packets-*\",\"filter\":[],\"query\":{\"language\":\"lucene\",\"query\":\"\"}}"
+      }
+    }
+  }
+]

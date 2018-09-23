@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "81c78d90-3c27-11e8-be4f-3d48125d63a5",
+    "_type": "visualization",
+    "_source": {
+      "title": "message counts by type+subtype",
+      "visState": "{\"type\":\"timelion\",\"title\":\"message counts by type+subtype\",\"params\":{\"expression\":\".es(index=packets-*,timefield=timestamp, split=layers.wlan_fc_type_subtype:10).lines(stack=true,fill=3,width=1).mvavg(4)\",\"interval\":\"auto\"}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{}"
+      }
+    }
+  }
+]

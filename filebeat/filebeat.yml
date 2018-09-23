@@ -1,0 +1,15 @@
+
+filebeat.prospectors:
+- type: stdin
+  json.keys_under_root: true
+
+output.elasticsearch:
+  hosts: ["elk:9200"]
+  index: "certstream-%{+yyyy.MM.dd}"
+
+setup.kibana:
+  host: "elk:5601"
+
+setup.template.name: "certstream"
+setup.template.pattern: "certstream-*"
+
