@@ -1,0 +1,5 @@
+pyOpenSSL==18.0.0
+construct
+requests
+axeman
+certstream
