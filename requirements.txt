@@ -3,3 +3,4 @@ construct
 requests
 axeman
 certstream
+elasticsearch
